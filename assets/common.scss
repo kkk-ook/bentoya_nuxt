@@ -1,0 +1,235 @@
+img {
+  width: 100%;
+}
+
+@media #{$pc,$tablet} {
+  .smart_only {
+    display: none !important;
+  }
+}
+
+@media #{$phone} {
+  .pc_only {
+    display: none !important;
+  }
+}
+
+@media #{$pc, $phone} {
+  .tablet_only {
+    display: none !important;
+  }
+}
+
+// flex設定
+.flex {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+
+  &._j {
+    &-around {
+      justify-content: space-around;
+    }
+
+    &-between {
+      justify-content: space-between;
+    }
+
+    &-center {
+      justify-content: center;
+    }
+
+    &-start {
+      justify-content: flex-start;
+    }
+
+    &-end {
+      justify-content: flex-end;
+    }
+  }
+
+  &._a {
+    &-start {
+      align-items: flex-start;
+    }
+
+    &-end {
+      align-items: flex-end;
+    }
+
+    &-center {
+      align-items: center;
+    }
+  }
+
+  &._column {
+    flex-direction: column;
+
+    &-r {
+      flex-direction: column-reverse;
+    }
+  }
+
+  &._row {
+    flex-direction: row;
+
+    &-r {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &._wrap {
+    flex-wrap: wrap;
+  }
+}
+
+// コンテンツ最大幅
+.max-width-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.input {
+  input {
+    width: 100%;
+  }
+}
+
+.textarea {
+  textarea {
+    width: 100%;
+    resize: none;
+  }
+}
+
+// fontawesomeテスト
+.svg-inline--fa,
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
+// 管理画面で上のタブ分margin持たせる
+.adminContent{
+  width: 80%;
+  margin: 200px auto;
+}
+
+//ページネーション管理画面
+.pagination_square {
+  margin: 50px auto 70px;
+  text-align: center;
+  white-space: nowrap;
+  position:relative;
+  .pagination_item_square{
+    font-size: 0.9rem;
+    display: inline-block;
+    color: $color-gray2;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    margin: 0 4px;
+    transition: 0.2s ease-in-out;
+    white-space: nowrap;
+    // -webkit-border-radius: 50%;
+    border-radius: 25%;
+    border: 1px solid $color-gray2;
+    position: relative;
+    &:hover {
+      background-color: $color-gray2;
+    }
+  }
+  .prev_class_square , .next_class_square{
+    font-size: 0.9rem;
+    display: inline-block;
+    color: $color-gray2;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    margin: 0 4px;
+    transition: 0.2s ease-in-out;
+    white-space: nowrap;
+    // -webkit-border-radius: 50%;
+    border-radius: 25%;
+    border: 1px solid $color-gray2;
+    position:relative;
+    &:hover {
+      background-color: $color-gray2;
+    }
+  }
+}
+
+// ++++++++++++++++++++++++++++++++++
+//       モーダル
+//++++++++++++++++++++++++++++++++++
+//モーダルの大外部分一式　↓
+.modal-contents {
+  // display: none;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(94, 84, 83, 0.5);
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+
+  > .modal_inner {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    > .body {
+      position: relative;
+      border-radius: 5px;
+      background-color: #fff;
+      width: 95%;
+      max-width: 1020px;
+      padding: 25px;
+      overflow-y: auto;
+      max-height: 90%;
+      @include p-center(xy);
+      @media #{$phone} {
+        padding: 20px;
+        width: 95%;
+      }
+
+      > .buttonitem {
+        > .btn_close {
+          width: 23px;
+          margin: 0 0 0 auto;
+          display: block;
+          transition: 0.4s;
+          @media #{$phone} {
+            width: 20px;
+          }
+          &:hover {
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// フォント設定
+
+@font-face {
+  font-family: 'Hiragino'; 
+  src: url('fonts/Hiragino Std W4.otf');
+}

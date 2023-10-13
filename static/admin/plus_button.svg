@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="グループ_492" data-name="グループ 492" transform="translate(-690 -660)">
+    <g id="楕円形_8" data-name="楕円形 8" transform="translate(690 660)" fill="#fff" stroke="#c1c1c1" stroke-width="0.5">
+      <circle cx="10" cy="10" r="10" stroke="none"/>
+      <circle cx="10" cy="10" r="9.75" fill="none"/>
+    </g>
+    <line id="線_1" data-name="線 1" y2="10" transform="translate(700 665)" fill="none" stroke="#c1c1c1" stroke-width="0.7"/>
+    <line id="線_2" data-name="線 2" x2="10" transform="translate(695 670)" fill="none" stroke="#c1c1c1" stroke-width="0.7"/>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+{
+  "name": "sennari_nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "16.17.1"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-qrcode": "1",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fullcalendar/core": "^6.1.8",
+    "@fullcalendar/daygrid": "^6.1.8",
+    "@fullcalendar/interaction": "^6.1.8",
+    "@fullcalendar/timegrid": "^6.1.8",
+    "@fullcalendar/vue": "^6.1.8",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/proxy": "^2.1.0",
+    "@nuxtjs/style-resources": "^1.2.1",
+    "core-js": "^3.25.3",
+    "dayjs": "^1.11.7",
+    "is-https": "^4.0.0",
+    "nuxt": "^2.15.8",
+    "nuxt-fontawesome": "^0.4.0",
+    "nuxt-stripe-module": "^3.2.0",
+    "swiper": "5.x",
+    "vue": "^2.7.10",
+    "vue-awesome-swiper": "4.1.1",
+    "vue-js-modal": "^2.0.1",
+    "vue-multiselect": "^2.1.7",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10",
+    "vue-toggles": "^1.1.4",
+    "vue2-datepicker": "^3.11.1",
+    "vuedraggable": "^2.24.3",
+    "vuejs-paginate": "^2.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.62.1",
+    "sass-loader": "10"
+  }
+}

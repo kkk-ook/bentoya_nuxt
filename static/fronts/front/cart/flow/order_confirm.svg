@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="グループ_325" data-name="グループ 325" transform="translate(-870 -142)">
+    <g id="楕円形_9" data-name="楕円形 9" transform="translate(870 142)" fill="#fff" stroke="#c30e23" stroke-width="1">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="24.5" fill="none"/>
+    </g>
+    <circle id="楕円形_12" data-name="楕円形 12" cx="3" cy="3" r="3" transform="translate(882.398 154.5)" fill="#c30e23"/>
+    <line id="線_1" data-name="線 1" x2="15.51" transform="translate(892.092 157.408)" fill="none" stroke="#c30e23" stroke-miterlimit="10" stroke-width="0.869"/>
+    <circle id="楕円形_13" data-name="楕円形 13" cx="3" cy="3" r="3" transform="translate(882.398 164.5)" fill="#c30e23"/>
+    <line id="線_2" data-name="線 2" x2="15.51" transform="translate(892.092 167.102)" fill="none" stroke="#c30e23" stroke-miterlimit="10" stroke-width="0.869"/>
+    <circle id="楕円形_14" data-name="楕円形 14" cx="3" cy="3" r="3" transform="translate(882.398 173.5)" fill="#c30e23"/>
+    <line id="線_3" data-name="線 3" x2="15.51" transform="translate(892.092 176.795)" fill="none" stroke="#c30e23" stroke-miterlimit="10" stroke-width="0.869"/>
+  </g>
+</svg>

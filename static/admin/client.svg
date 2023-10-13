@@ -1,0 +1,21 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="20" height="25" viewBox="0 0 20 25">
+  <g id="グループ_481" data-name="グループ 481">
+    <path id="パス_138" data-name="パス 138" d="M19.167,0H.833A.833.833,0,0,0,0,.833V25H20V.833A.833.833,0,0,0,19.167,0Z" fill="#c20d22"/>
+    <rect id="長方形_257" data-name="長方形 257" width="4.167" height="5" transform="translate(7.917 20)" fill="#fff"/>
+    <g id="グループ_478" data-name="グループ 478" transform="translate(3.333 2.223)">
+      <rect id="長方形_258" data-name="長方形 258" width="3.333" height="3.333" fill="#fff"/>
+      <rect id="長方形_259" data-name="長方形 259" width="3.333" height="3.333" transform="translate(5)" fill="#fff"/>
+      <rect id="長方形_260" data-name="長方形 260" width="3.333" height="3.333" transform="translate(10)" fill="#fff"/>
+    </g>
+    <g id="グループ_479" data-name="グループ 479" transform="translate(3.333 7.532)">
+      <rect id="長方形_261" data-name="長方形 261" width="3.333" height="3.333" fill="#fff"/>
+      <rect id="長方形_262" data-name="長方形 262" width="3.333" height="3.333" transform="translate(5)" fill="#fff"/>
+      <rect id="長方形_263" data-name="長方形 263" width="3.333" height="3.333" transform="translate(10)" fill="#fff"/>
+    </g>
+    <g id="グループ_480" data-name="グループ 480" transform="translate(3.333 13.507)">
+      <rect id="長方形_264" data-name="長方形 264" width="3.333" height="3.333" fill="#fff"/>
+      <rect id="長方形_265" data-name="長方形 265" width="3.333" height="3.333" transform="translate(5)" fill="#fff"/>
+      <rect id="長方形_266" data-name="長方形 266" width="3.333" height="3.333" transform="translate(10)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

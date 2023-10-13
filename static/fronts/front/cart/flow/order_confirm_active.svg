@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="グループ_327" data-name="グループ 327" transform="translate(-870 -142)">
+    <circle id="楕円形_9" data-name="楕円形 9" cx="25" cy="25" r="25" transform="translate(870 142)" fill="#c30e23"/>
+    <g id="_レイヤー_2-2" transform="translate(882.398 154.5)">
+      <circle id="楕円形_12" data-name="楕円形 12" cx="3" cy="3" r="3" transform="translate(0 0)" fill="#fff"/>
+      <line id="線_1" data-name="線 1" x2="15.51" transform="translate(9.694 2.908)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.869"/>
+      <circle id="楕円形_13" data-name="楕円形 13" cx="3" cy="3" r="3" transform="translate(0 10)" fill="#fff"/>
+      <line id="線_2" data-name="線 2" x2="15.51" transform="translate(9.694 12.602)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.869"/>
+      <circle id="楕円形_14" data-name="楕円形 14" cx="3" cy="3" r="3" transform="translate(0 19)" fill="#fff"/>
+      <line id="線_3" data-name="線 3" x2="15.51" transform="translate(9.694 22.296)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.869"/>
+    </g>
+  </g>
+</svg>

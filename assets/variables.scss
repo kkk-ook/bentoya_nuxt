@@ -1,0 +1,55 @@
+// メディアクエリ
+$width-tab: 1023px;
+$width-sp : 767px;
+$phone    : "screen and (max-width: 767px)";
+$tablet   : "screen and (min-width:768px) and (max-width:969px)";
+$pc       : "screen and (min-width:970px)";
+
+// カラー
+$color-gray : #E5E5E5;
+$color-gray2: #CCC;
+$color-gray3: #C1C1C1;
+$color-wh   : white;
+$color-red  : #C20D22;
+$color-red2 : #C30E23;
+$color-txt  : #393939;
+$color-txt2 : #707070;
+$color-blue : #00B0AA;
+$color-front : #333;
+$color-orange: #D67C1F;
+
+// ++++++++++++++++++++++++++++++++++
+//       mixin 系！！！！！！
+//++++++++++++++++++++++++++++++++++
+
+//1回おおきくなる 1.2
+@mixin hvr-pop($scale_a) {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform        : perspective(1px) translateZ(0);
+
+  &:hover,
+  &:focus,
+  &:active {
+    -webkit-animation-name           : hvr-pop;
+    animation-name                   : hvr-pop;
+    -webkit-animation-duration       : 0.3s;
+    animation-duration               : 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function        : linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count        : 1;
+    transition                       : all 0.3s;
+
+    @media #{$phone} {
+      animation: none;
+      opacity  : .6;
+    }
+  }
+
+  @keyframes hvr-pop {
+    50% {
+      -webkit-transform: scale($scale_a);
+      transform        : scale($scale_a);
+    }
+  }
+}
